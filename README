@@ -1,0 +1,46 @@
+sjIRC 0.1a
+
+sjIRC is a simple IRC client written in Java.
+
+Commands are as follows:
+
+/join [channel name]
+
+	Join a channel
+
+/server [server name]
+	
+	connect to a server
+
+/part [channel name]
+	
+	Part from a channel
+
+/quit [message]
+
+	Quit the server, with an optional message.
+
+/topic [channel name] [topic text]
+
+	Change the topic of the channel.
+
+/kick [channel name] [nick]
+	
+	Kick a user from the channel, if you're an op.
+
+/mode [channel name] [parameters] [nicks]
+	
+	Set the mode for the channel. For instance, to op someone named Steve on #talk, do:
+	/mode #talk +o Steve
+
+/whois
+
+	Perform a WHOIS on someone
+
+/whowas
+
+	Perform a WHOWAS on someone.
+
+/msg [nick] [message content]
+
+	Send a private message to [nick].
